@@ -24,7 +24,7 @@ RUN apt-get update \
      libmicrohttpd-dev \
      build-essential
 
-RUN git clone https://github.com/Genoil/cpp-ethereum/ \
+RUN git clone https://github.com/tsrociano/cpp-ethereum/ \
     && cd cpp-ethereum \
     && mkdir build \
     && cd build \
